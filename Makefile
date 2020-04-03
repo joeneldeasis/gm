@@ -6,6 +6,6 @@ test-unit: security
 	@node test/ $(TESTS)
 
 security:
-	@node_modules/.bin/nsp check
+	npm audit --audit-level high
 
 .PHONY: test test-unit security

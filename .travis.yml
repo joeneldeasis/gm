@@ -3,6 +3,7 @@ before_install:
   - sudo apt-get install imagemagick graphicsmagick
 language: node_js
 node_js:
+  - "12"
   - "8"
   - "6"
   - "4"
